@@ -1,0 +1,22 @@
+{
+  "name": "ha-youtube-card",
+  "version": "1.0.0",
+  "description": "YouTube player card for Home Assistant Lovelace",
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -c --watch",
+    "dev": "rollup -c --watch"
+  },
+  "devDependencies": {
+    "rollup": "^3.29.4",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@babel/core": "^7.23.5",
+    "@babel/preset-env": "^7.23.5"
+  },
+  "dependencies": {
+    "lit": "^2.8.0"
+  },
+  "type": "module"
+}
