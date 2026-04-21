@@ -436,5 +436,5 @@ window.customCards.push({
   name: 'YouTube Player',
   description: 'Plays YouTube videos, playlists and live streams',
   preview: true,
-  documentationURL: 'https://github.com/YOUR_USERNAME/ha-youtube-card',
+  documentationURL: 'https://github.com/who2us/ha-youtube-card',
 });
